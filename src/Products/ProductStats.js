@@ -8,10 +8,10 @@ class ProuductStat extends Component {
         return (
             <div className="productStats">
                 <h3> Product Status</h3>
-                <div>Open: {product.open}</div>
-                <div>High: {product.high}</div>
-                <div>Low: {product.low}</div>
-                <div>Volume: {product.volume}</div>
+                <div><span>Open:</span>{product.open}</div>
+                <div><span>High: </span>{product.high}</div>
+                <div><span>Low: </span>{product.low}</div>
+                <div><span>Volume: </span>{product.volume}</div>
             </div >
         )
     }
