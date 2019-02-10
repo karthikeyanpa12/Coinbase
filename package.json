@@ -2,6 +2,7 @@
   "name": "coinbase",
   "version": "0.1.0",
   "private": true,
+  "homePage": "https://karthikeyanpa12.github.io/Coinbase",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "axios": "^0.18.0",
@@ -17,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "concurrently  \"npm run server\" \"react-scripts start\""
+    "start": "concurrently  \"npm run server\" \"react-scripts start\"",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
